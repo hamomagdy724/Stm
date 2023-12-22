@@ -2,9 +2,6 @@
 
 void usart1_begin(uint64_t baudRate)
 {
-     float USARTDIV;
-     float FRACTION_temp;
-     int Mantissa , Fraction ;
     //Enable clock for USART1 and GPIO Port A
     RCC_AHB1ENRbits.GPIOAEN = 1;
     RCC_APB2ENRbits.USART1EN = 1;
