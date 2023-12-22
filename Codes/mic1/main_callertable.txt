@@ -1,8 +1,0 @@
-main
-	__CC2DW
-	__FillZeros
-	usart1_begin
-	gpio_pin_intialize
-	read
-		available
-	gpio_pin_write
